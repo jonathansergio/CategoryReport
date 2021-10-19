@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Js_CategoryReport::inventory" title="Category Report" module="Js_CategoryReport" sortOrder="70" action="jscategoryreport/advancedreports_products/inventory" resource="Js_CategoryReport::inventory" parent="Magento_Reports::report_products"/>
+    </menu>
+</config>
